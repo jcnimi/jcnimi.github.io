@@ -1,0 +1,16 @@
+.grid-container {
+    width: 90%;
+    height: 90%;
+    background-color:rgb(79, 114, 114);
+  }
+
+.hand {
+    color: rgb(20, 20, 119);
+    margin: 3px;
+}
+
+.container {
+    
+    display: flex;
+    text-align: center
+}
