@@ -1,6 +1,17 @@
 //Initialize the game
 const cards = {'Ac': 'Ace_of_clubs', 
-'Kc': 'king_of_clubs', 'Jc': 'Jack_of_clubs', 'Qc': 'Queen_of_clubs', '2c': '2_of_clubs', '3c': '3_of_clubs', '4c': '4_of_clubs', '5c': '5_of_clubs', '6c': '6_of_clubs', '7c': '7_of_clubs', '8c': '8_of_clubs', '9c': '9_of_clubs', '10c': '10_of_clubs', 'Ad': 'Ace_of_diamonds', 'Kd': 'king_of_diamonds', 'Jd': 'Jack_of_diamonds', 'Qd': 'Queen_of_diamonds', '2d': '2_of_diamonds', '3d': '3_of_diamonds', '4d': '4_of_diamonds', '5d': '5_of_diamonds', '6d': '6_of_diamonds', '7d': '7_of_diamonds', '8d': '8_of_diamonds', '9d': '9_of_diamonds', '10d': '10_of_diamonds', 'Ah': 'Ace_of_hearts', 'Kh': 'king_of_hearts', 'Jh': 'Jack_of_hearts', 'Qh': 'Queen_of_hearts', '2h': '2_of_hearts', '3h': '3_of_hearts', '4h': '4_of_hearts', '5h': '5_of_hearts', '6h': '6_of_hearts', '7h': '7_of_hearts', '8h': '8_of_hearts', '9h': '9_of_hearts', '10h': '10_of_hearts', 'As': 'Ace_of_spades', 'Ks': 'king_of_spades', 'Js': 'Jack_of_spades', 'Qs': 'Queen_of_spades', '2s': '2_of_spades', '3s': '3_of_spades', '4s': '4_of_spades', '5s': '5_of_spades', '6s': '6_of_spades', '7s': '7_of_spades', '8s': '8_of_spades', '9s': '9_of_spades', '10s': '10_of_spades'}
+'Kc': 'king_of_clubs', 'Jc': 'jack_of_clubs', 'Qc': 'queen_of_clubs', '2c': '2_of_clubs', '3c': '3_of_clubs', 
+'4c': '4_of_clubs', '5c': '5_of_clubs', '6c': '6_of_clubs', '7c': '7_of_clubs', '8c': '8_of_clubs', 
+'9c': '9_of_clubs', '10c': '10_of_clubs', 'Ad': 'ace_of_diamonds', 'Kd': 'king_of_diamonds', 
+'Jd': 'jack_of_diamonds', 'Qd': 'queen_of_diamonds', '2d': '2_of_diamonds', '3d': '3_of_diamonds', 
+'4d': '4_of_diamonds', '5d': '5_of_diamonds', '6d': '6_of_diamonds', '7d': '7_of_diamonds', 
+'8d': '8_of_diamonds', '9d': '9_of_diamonds', '10d': '10_of_diamonds', 'Ah': 'ace_of_hearts', 
+'Kh': 'king_of_hearts', 'Jh': 'jack_of_hearts', 'Qh': 'queen_of_hearts', '2h': '2_of_hearts', 
+'3h': '3_of_hearts', '4h': '4_of_hearts', '5h': '5_of_hearts', '6h': '6_of_hearts', 
+'7h': '7_of_hearts', '8h': '8_of_hearts', '9h': '9_of_hearts', '10h': '10_of_hearts', 
+'As': 'ace_of_spades', 'Ks': 'king_of_spades', 'Js': 'jack_of_spades', 'Qs': 'queen_of_spades', 
+'2s': '2_of_spades', '3s': '3_of_spades', '4s': '4_of_spades', '5s': '5_of_spades', '6s': '6_of_spades', 
+'7s': '7_of_spades', '8s': '8_of_spades', '9s': '9_of_spades', '10s': '10_of_spades'}
 
 let user_cards_hand
 let ai_cards_hand
