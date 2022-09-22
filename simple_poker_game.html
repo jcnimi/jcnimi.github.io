@@ -55,15 +55,15 @@
                     </fieldset> 
                 </div>
         </div>
-        <div class="hand">
+        <div class="hand" >
             <fieldset>
                 <legend>Scores and actions</legend>
-                <label for="user_score">user Score: </label><input type="text" id="user_score" value="0" size="5" readonly>
-                <label for="ai_score">AI Score: </label><input type="text" id="ai_score" value="0" size="5" readonly>
-                <label for="winner">Winner: </label><input type="text" id="winner" value=""  size = "10" readonly>
-                <label for="fold_counter">Fold counter: </label><input type="text" id="fold_counter" value="6" size="5" readonly>
-                <button onclick="init_game()">Fold</button>
-                <button onclick="get_score()">Get Score</button>
+                <label for="user_score">User Score: </label><input type="text" id="user_score" value="0" readonly>
+                <label for="ai_score">AI Score: </label><input type="text" id="ai_score" value="0" readonly>
+                <label for="winner">Winner: </label><input type="text" id="winner" readonly>
+                <label for="fold_counter">Fold counter: </label><input type="text" id="fold_counter" value="6" readonly>
+                <button onclick="init_game()" class="btn">Fold</button>
+                <button onclick="get_score()" class="btn">Get Score</button>
             </fieldset>
         </div>
     </div>
