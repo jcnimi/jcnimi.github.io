@@ -13,55 +13,55 @@
             <div class="hand">
                 <fieldset>
                     <legend>User Cards</legend>
-                    <img src="" id="user1" alt="" width="100rem" height="150rem">
-                    <img src="" id="user2" alt="" width="100rem" height="150rem">
+                    <img src="" id="user1" alt="" class="pic">
+                    <img src="" id="user2" alt="" class="pic">
                 </fieldset>
             </div>
             <div class="hand">
                 <fieldset>
                     <legend>Board Cards</legend>
-                    <img src="" id="board1" alt="" width="100rem" height="150rem">
-                    <img src="" id="board2" alt="" width="100rem" height="150rem">
-                    <img src="" id="board3" alt="" width="100rem" height="150rem">
+                    <img src="" id="board1" alt="" class="pic">
+                    <img src="" id="board2" alt="" class="pic">
+                    <img src="" id="board3" alt="" class="pic">
                 </fieldset>
             </div>
             <div class="hand">
                 <fieldset>
                     <legend>AI Cards</legend>
-                    <img src="" id="ai1" alt="" width="100rem" height="150rem">
-                    <img src="" id="ai2" alt="" width="100rem" height="150rem">
+                    <img src="" id="ai1" alt="" class="pic">
+                    <img src="" id="ai2" alt="" class="pic">
                 </fieldset>
             </div>  
         </div>
         <div class="container">
-                <div>
+                <div class="hand">
                     <fieldset>
                         <legend>User final cards</legend>
-                        <img src="" id="user_fin1" alt="" width="100rem" height="150rem">
-                        <img src="" id="user_fin2" alt="" width="100rem" height="150rem">
-                        <img src="" id="user_fin3" alt="" width="100rem" height="150rem">
-                        <img src="" id="user_fin4" alt="" width="100rem" height="150rem">
-                        <img src="" id="user_fin5" alt="" width="100rem" height="150rem">
+                        <img src="" id="user_fin1" alt="" class="pic">
+                        <img src="" id="user_fin2" alt="" class="pic">
+                        <img src="" id="user_fin3" alt="" class="pic">
+                        <img src="" id="user_fin4" alt="" class="pic">
+                        <img src="" id="user_fin5" alt="" class="pic">
                     </fieldset> 
                 </div>
-                <div>
+                <div class="hand">
                     <fieldset>
                         <legend>AI final cards</legend>
-                        <img src="" id="ai_fin1" alt="" width="100rem" height="150rem">
-                        <img src="" id="ai_fin2" alt="" width="100rem" height="150rem">
-                        <img src="" id="ai_fin3" alt="" width="100rem" height="150rem">
-                        <img src="" id="ai_fin4" alt="" width="100rem" height="150rem">
-                        <img src="" id="ai_fin5" alt="" width="100rem" height="150rem">
+                        <img src="" id="ai_fin1" alt="" class="pic">
+                        <img src="" id="ai_fin2" alt="" class="pic">
+                        <img src="" id="ai_fin3" alt="" class="pic">
+                        <img src="" id="ai_fin4" alt="" class="pic">
+                        <img src="" id="ai_fin5" alt="" class="pic">
                     </fieldset> 
                 </div>
         </div>
-        <div>
+        <div class="hand">
             <fieldset>
                 <legend>Scores and actions</legend>
-                <label for="user_score">user Score: </label><input type="text" id="user_score" value="0" readonly>
-                <label for="ai_score">AI Score: </label><input type="text" id="ai_score" value="0" readonly>
-                <label for="winner">Winner: </label><input type="text" id="winner" value="" readonly>
-                <label for="fold_counter">Fold counter: </label><input type="text" id="fold_counter" value="6" readonly>
+                <label for="user_score">user Score: </label><input type="text" id="user_score" value="0" size="5" readonly>
+                <label for="ai_score">AI Score: </label><input type="text" id="ai_score" value="0" size="5" readonly>
+                <label for="winner">Winner: </label><input type="text" id="winner" value=""  size = "10" readonly>
+                <label for="fold_counter">Fold counter: </label><input type="text" id="fold_counter" value="6" size="5" readonly>
                 <button onclick="init_game()">Fold</button>
                 <button onclick="get_score()">Get Score</button>
             </fieldset>
